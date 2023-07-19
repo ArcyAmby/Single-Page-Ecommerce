@@ -21,15 +21,13 @@ module.exports = {
     //   '2xl': '1536px',
     //   // => @media (min-width: 1536px) { ... }
     // },
-
-    darkMode: 'media',
     extend: {
       colors: {
         customblack: '#0B0C10',
         customDarkGray: '#1F2833',
         customGray: '#C5C6C7',
-        customMint: '#66FCF1',
-        customDarkMint: '#45A29E'
+        customYellow: '#FFD95A',
+        customGold: '#C07F00'
       },
       fontFamily: {
         primary: ['Montserrat']
