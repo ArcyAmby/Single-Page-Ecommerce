@@ -11,12 +11,8 @@
   
 
   
-<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    </a>
+<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-6">
     <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -24,72 +20,519 @@
         </svg>
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="flex flex-col text-sm font-normal p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Women</a>
+        </li>
+        
+        <li>
+          <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Plus</a>
         </li>
         <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-            <!-- Dropdown menu -->
-            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li aria-labelledby="dropdownNavbarLink">
-                    <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-  </svg></button>
-                    <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
-                          <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Overview</a>
-                          </li>
-                          <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">My downloads</a>
-                          </li>
-                          <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Billing</a>
-                          </li>
-                          <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Rewards</a>
-                          </li>
-                        </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                </ul>
-                <div class="py-1">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
-                </div>
-            </div>
+          <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Men</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Accesories</a>
         </li>
       </ul>
     </div>
+    <div class="flex-shrink-0 flex items-center">
+      <svg width="193" height="17" viewBox="0 0 193 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Logo">
+        <path id="Vector" d="M8.85573 2.3274V17H7.38961V2.3274H0V1H16.2454V2.3274H8.85573Z" fill="black"/>
+        <path id="Vector_2" d="M40.3128 17V9.22124H25.7583V17H24.2805V1.00001H25.7583V7.89355H40.3128V1H41.7908V17H40.3128Z" fill="black"/>
+        <path id="Vector_3" d="M53.5857 10.1528V17H52.1078V1.00001H60.1952C61.2626 0.984026 62.3287 1.07961 63.3756 1.28516C64.1486 1.43124 64.8854 1.72387 65.5451 2.14678C66.0849 2.50354 66.5129 3.00171 66.7807 3.58516C67.0534 4.22213 67.1863 4.90863 67.1709 5.59973C67.2241 6.64037 66.8827 7.66336 66.2131 8.47003C65.5747 9.18837 64.5461 9.67945 63.1271 9.94324L68.6724 17H66.8161L61.5783 10.1062C61.3575 10.1219 61.133 10.1335 60.9046 10.141C60.6758 10.1489 60.4394 10.1528 60.1952 10.1528H53.5857ZM65.6575 5.59973C65.6825 5.02467 65.5561 4.453 65.2906 3.94025C65.0142 3.4904 64.5935 3.14411 64.0949 2.95614C63.3997 2.69108 62.6674 2.53211 61.9234 2.48474C61.0278 2.40298 59.9291 2.36215 58.6275 2.36225H53.5857V8.79029H58.5802C59.882 8.79029 60.9826 8.75339 61.8821 8.6796C62.631 8.63829 63.3692 8.48522 64.0715 8.22562C64.5731 8.04395 64.9996 7.70409 65.2846 7.25893C65.556 6.74817 65.6847 6.17556 65.6575 5.59973Z" fill="black"/>
+        <path id="Vector_4" d="M77.1211 17V1H90.6587V2.36224H78.7289V7.8705H90.0557V9.19791H78.7289V15.6375H90.8361V17L77.1211 17Z" fill="black"/>
+        <path id="Vector_5" d="M115.122 17L112.888 12.7728H101.857L99.622 17H98.0021L106.503 1H108.241L116.742 17H115.122ZM107.378 2.40888L102.578 11.4454H112.166L107.378 2.40888Z" fill="black"/>
+        <path id="Vector_6" d="M142.506 8.98835C142.519 9.90861 142.41 10.8266 142.181 11.719C141.991 12.4557 141.681 13.1575 141.265 13.7976C140.88 14.378 140.394 14.8866 139.828 15.2998C139.253 15.7173 138.62 16.0506 137.948 16.2895C137.221 16.5474 136.468 16.7289 135.702 16.8312C134.858 16.9462 134.006 17.0026 133.154 17H124.771V1.00001H133.13C134.379 0.991091 135.624 1.1199 136.843 1.38404C137.917 1.60964 138.93 2.05615 139.816 2.69431C140.676 3.3368 141.356 4.18429 141.791 5.15697C142.304 6.36914 142.548 7.67558 142.506 8.98835ZM140.993 8.99424C141.004 8.21729 140.916 7.44204 140.733 6.68637C140.581 6.06983 140.329 5.48147 139.987 4.94403C139.674 4.46165 139.273 4.04077 138.804 3.70286C138.321 3.35992 137.791 3.08706 137.23 2.89265C136.613 2.67909 135.974 2.5326 135.325 2.4558C134.599 2.36779 133.868 2.32491 133.136 2.32741H126.249V15.6726H133.136C134.205 15.6816 135.272 15.5781 136.319 15.3638C137.214 15.187 138.06 14.8211 138.798 14.2915C139.508 13.7575 140.065 13.0505 140.413 12.2402C140.832 11.2093 141.03 10.1041 140.993 8.99424Z" fill="black"/>
+        <path id="Vector_7" d="M151.653 17V1H165.19V2.36224H153.261V7.8705H164.587V9.19791H153.261V15.6375H165.368V17L151.653 17Z" fill="black"/>
+        <path id="Vector_8" d="M192.509 8.98835C192.522 9.90861 192.413 10.8266 192.184 11.719C191.994 12.4557 191.684 13.1575 191.268 13.7976C190.883 14.378 190.397 14.8866 189.831 15.2998C189.257 15.7173 188.623 16.0506 187.952 16.2895C187.224 16.5474 186.471 16.7289 185.705 16.8312C184.861 16.9462 184.009 17.0026 183.157 17H174.774V1.00001H183.134C184.382 0.991091 185.627 1.1199 186.846 1.38404C187.92 1.60964 188.933 2.05615 189.82 2.69431C190.679 3.3368 191.359 4.18429 191.794 5.15697C192.308 6.36914 192.551 7.67558 192.509 8.98835ZM190.996 8.99424C191.007 8.21729 190.919 7.44204 190.736 6.68637C190.584 6.06983 190.332 5.48147 189.99 4.94403C189.677 4.46165 189.276 4.04077 188.807 3.70286C188.324 3.35991 187.794 3.08706 187.233 2.89265C186.616 2.67909 185.977 2.5326 185.328 2.4558C184.602 2.36779 183.871 2.32491 183.139 2.32741H176.252V15.6726H183.139C184.208 15.6816 185.275 15.5781 186.322 15.3638C187.217 15.187 188.063 14.8211 188.801 14.2915C189.511 13.7575 190.068 13.0505 190.416 12.2402C190.835 11.2093 191.033 10.1041 190.996 8.99424Z" fill="black"/>
+        </g>
+        </svg>
+    </div>
+
+    <ul class="flex flex-col text-sm font-normal p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="bx:bx-user">
+          <path id="Vector" d="M10 1.66666C9.17591 1.66666 8.37033 1.91103 7.68512 2.36887C6.99992 2.82671 6.46587 3.47745 6.1505 4.23881C5.83514 5.00017 5.75262 5.83794 5.91339 6.6462C6.07417 7.45445 6.471 8.19688 7.05372 8.7796C7.63644 9.36232 8.37887 9.75916 9.18712 9.91993C9.99538 10.0807 10.8332 9.99819 11.5945 9.68282C12.3559 9.36746 13.0066 8.8334 13.4645 8.1482C13.9223 7.46299 14.1667 6.65741 14.1667 5.83332C14.1667 4.72825 13.7277 3.66845 12.9463 2.88704C12.1649 2.10564 11.1051 1.66666 10 1.66666ZM10 8.33332C9.50555 8.33332 9.0222 8.1867 8.61107 7.912C8.19995 7.63729 7.87952 7.24685 7.6903 6.79003C7.50108 6.33322 7.45157 5.83055 7.54804 5.3456C7.6445 4.86064 7.8826 4.41519 8.23223 4.06556C8.58186 3.71592 9.02732 3.47782 9.51227 3.38136C9.99723 3.2849 10.4999 3.33441 10.9567 3.52362C11.4135 3.71284 11.804 4.03327 12.0787 4.4444C12.3534 4.85552 12.5 5.33887 12.5 5.83332C12.5 6.49636 12.2366 7.13225 11.7678 7.60109C11.2989 8.06993 10.663 8.33332 10 8.33332ZM17.5 17.5V16.6667C17.5 15.1196 16.8854 13.6358 15.7915 12.5419C14.6975 11.4479 13.2138 10.8333 11.6667 10.8333H8.33333C6.78624 10.8333 5.30251 11.4479 4.20854 12.5419C3.11458 13.6358 2.5 15.1196 2.5 16.6667V17.5H4.16667V16.6667C4.16667 15.5616 4.60565 14.5018 5.38705 13.7204C6.16846 12.939 7.22826 12.5 8.33333 12.5H11.6667C12.7717 12.5 13.8315 12.939 14.6129 13.7204C15.3943 14.5018 15.8333 15.5616 15.8333 16.6667V17.5H17.5Z" fill="#999999"/>
+          </g>
+          </svg></a>
+      </li>
+      
+      <li>
+        <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="bx:bx-shopping-bag">
+          <path id="Vector" d="M4.16667 18.3333H15.8333C16.7525 18.3333 17.5 17.5858 17.5 16.6667V7.49999C17.5 7.27898 17.4122 7.06701 17.2559 6.91073C17.0996 6.75445 16.8877 6.66666 16.6667 6.66666H14.1667V5.83332C14.1667 3.53582 12.2975 1.66666 10 1.66666C7.7025 1.66666 5.83333 3.53582 5.83333 5.83332V6.66666H3.33333C3.11232 6.66666 2.90036 6.75445 2.74408 6.91073C2.5878 7.06701 2.5 7.27898 2.5 7.49999V16.6667C2.5 17.5858 3.2475 18.3333 4.16667 18.3333ZM7.5 5.83332C7.5 4.45499 8.62167 3.33332 10 3.33332C11.3783 3.33332 12.5 4.45499 12.5 5.83332V6.66666H7.5V5.83332ZM4.16667 8.33332H5.83333V9.99999H7.5V8.33332H12.5V9.99999H14.1667V8.33332H15.8333L15.835 16.6667H4.16667V8.33332Z" fill="#999999"/>
+          </g>
+          </svg>
+          </a>
+      </li>
+      <li>
+        <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="bx:bx-heart">
+          <path id="Vector" d="M10 3.82916C9.09203 2.99424 7.90353 2.53086 6.67002 2.53082C6.01714 2.5315 5.37084 2.66129 4.76831 2.91271C4.16577 3.16414 3.61891 3.53223 3.15919 3.99582C1.19836 5.96499 1.19919 9.04499 3.16086 11.0058L9.27086 17.1158C9.41253 17.365 9.68586 17.5258 10 17.5258C10.129 17.5246 10.2559 17.4931 10.3706 17.4339C10.4852 17.3747 10.5843 17.2894 10.66 17.185L16.8392 11.0058C18.8009 9.04416 18.8009 5.96499 16.8375 3.99249C16.378 3.52975 15.8316 3.1624 15.2297 2.91156C14.6277 2.66071 13.9821 2.53132 13.33 2.53082C12.0965 2.53102 10.9081 2.99438 10 3.82916ZM15.6592 5.17082C16.9617 6.47999 16.9625 8.52499 15.6609 9.82749L10 15.4883L4.33919 9.82749C3.03752 8.52499 3.03836 6.47999 4.33752 5.17416C4.97086 4.54416 5.79919 4.19749 6.67002 4.19749C7.54086 4.19749 8.36586 4.54416 8.99419 5.17249L9.41086 5.58916C9.48818 5.66661 9.58002 5.72806 9.68111 5.76998C9.78221 5.81191 9.89058 5.83349 10 5.83349C10.1095 5.83349 10.2178 5.81191 10.3189 5.76998C10.42 5.72806 10.5119 5.66661 10.5892 5.58916L11.0059 5.17249C12.2659 3.91499 14.4009 3.91832 15.6592 5.17082Z" fill="#999999"/>
+          </g>
+          </svg>
+          </a>
+      </li>
+      <li>
+        <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="bx:bx-support">
+          <path id="Vector" d="M10 1.66666C5.40502 1.66666 1.66669 5.40499 1.66669 9.99999V13.4525C1.66669 14.3058 2.41419 15 3.33335 15H4.16669C4.3877 15 4.59966 14.9122 4.75594 14.7559C4.91222 14.5996 5.00002 14.3877 5.00002 14.1667V9.88082C5.00002 9.65981 4.91222 9.44785 4.75594 9.29157C4.59966 9.13529 4.3877 9.04749 4.16669 9.04749H3.41002C3.87335 5.82249 6.64835 3.33332 10 3.33332C13.3517 3.33332 16.1267 5.82249 16.59 9.04749H15.8334C15.6123 9.04749 15.4004 9.13529 15.2441 9.29157C15.0878 9.44785 15 9.65981 15 9.88082V15C15 15.9192 14.2525 16.6667 13.3334 16.6667H11.6667V15.8333H8.33335V18.3333H13.3334C15.1717 18.3333 16.6667 16.8383 16.6667 15C17.5859 15 18.3334 14.3058 18.3334 13.4525V9.99999C18.3334 5.40499 14.595 1.66666 10 1.66666Z" fill="#999999"/>
+          </g>
+          </svg>
+          
+          </a>
+      </li>
+      <li>
+        <a href="#" class="block font-primary uppercase py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="bx:bx-search">
+          <path id="Vector" d="M8.33335 15C9.8125 14.9997 11.249 14.5045 12.4142 13.5933L16.0775 17.2567L17.2559 16.0783L13.5925 12.415C14.5042 11.2497 14.9997 9.81285 15 8.33332C15 4.65749 12.0092 1.66666 8.33335 1.66666C4.65752 1.66666 1.66669 4.65749 1.66669 8.33332C1.66669 12.0092 4.65752 15 8.33335 15ZM8.33335 3.33332C11.0909 3.33332 13.3334 5.57582 13.3334 8.33332C13.3334 11.0908 11.0909 13.3333 8.33335 13.3333C5.57585 13.3333 3.33335 11.0908 3.33335 8.33332C3.33335 5.57582 5.57585 3.33332 8.33335 3.33332Z" fill="#999999"/>
+          </g>
+          </svg>
+          
+          </a>
+      </li>
+      <li>
+        <button title="Dropdown" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="font-primary uppercase flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"> <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="US Flag" clip-path="url(#clip0_4_79)">
+          <path id="Vector" d="M18.75 2.57812C16.9141 1.44531 14.8047 0.78125 12.5 0.78125V2.57812H18.75Z" fill="#ED1C24"/>
+          <path id="Vector_2" d="M12.5 4.375H20.9375C20.2734 3.71094 19.5313 3.08594 18.75 2.57812H12.5V4.375Z" fill="white"/>
+          <path id="Vector_3" d="M12.5 6.17188H22.3828C21.9531 5.50781 21.4844 4.92187 20.9766 4.375H12.5V6.17188Z" fill="#ED1C24"/>
+          <path id="Vector_4" d="M12.5 7.96875H23.3203C23.0469 7.34375 22.7344 6.71875 22.3828 6.17188H12.5V7.96875Z" fill="white"/>
+          <path id="Vector_5" d="M12.5 9.76562H23.9062C23.75 9.14062 23.5547 8.55469 23.3203 7.96875H12.5V9.76562Z" fill="#ED1C24"/>
+          <path id="Vector_6" d="M12.5 11.6016H24.1797C24.1406 10.9766 24.0234 10.3906 23.9062 9.80469H12.5V11.6016Z" fill="white"/>
+          <path id="Vector_7" d="M24.1797 11.6016H12.5V12.5H0.78125C0.78125 12.8125 0.78125 13.0859 0.820312 13.3984H24.1797C24.2188 13.0859 24.2188 12.8125 24.2188 12.5C24.2188 12.1875 24.2188 11.875 24.1797 11.6016Z" fill="#ED1C24"/>
+          <path id="Vector_8" d="M1.09375 15.1953H23.9062C24.0625 14.6094 24.1406 14.0234 24.1797 13.3984H0.820312C0.859375 13.9844 0.976563 14.6094 1.09375 15.1953Z" fill="white"/>
+          <path id="Vector_9" d="M1.67969 16.9922H23.3203C23.5547 16.4062 23.75 15.8203 23.9062 15.1953H1.09375C1.25 15.8203 1.44531 16.4062 1.67969 16.9922Z" fill="#ED1C24"/>
+          <path id="Vector_10" d="M2.61719 18.7891H22.3828C22.7344 18.2031 23.0469 17.6172 23.3203 16.9922H1.67969C1.95312 17.6172 2.26562 18.2031 2.61719 18.7891Z" fill="white"/>
+          <path id="Vector_11" d="M4.02344 20.5859H20.9766C21.4844 20.0391 21.9922 19.4141 22.3828 18.7891H2.61719C3.00781 19.4531 3.51563 20.0391 4.02344 20.5859Z" fill="#ED1C24"/>
+          <path id="Vector_12" d="M6.21094 22.3828H18.7891C19.6094 21.875 20.3125 21.25 20.9766 20.5859H4.02344C4.6875 21.2891 5.42969 21.875 6.21094 22.3828Z" fill="white"/>
+          <path id="Vector_13" d="M12.5 24.2188C14.8047 24.2188 16.9531 23.5547 18.7891 22.3828H6.21094C8.04687 23.5547 10.1953 24.2188 12.5 24.2188Z" fill="#ED1C24"/>
+          <path id="Vector_14" d="M6.25 2.57812C5.42969 3.08594 4.6875 3.71094 4.02344 4.375C3.47656 4.92188 3.00781 5.54688 2.61719 6.17188C2.26562 6.75781 1.91406 7.34375 1.67969 7.96875C1.44531 8.55469 1.25 9.14062 1.09375 9.76562C0.9375 10.3516 0.859375 10.9375 0.820312 11.5625C0.78125 11.875 0.78125 12.1875 0.78125 12.5H12.5V0.78125C10.1953 0.78125 8.08594 1.44531 6.25 2.57812Z" fill="#428BC1"/>
+          <g id="Group">
+          <path id="Vector_15" d="M9.76562 1.17188L9.96094 1.75781H10.5469L10.0781 2.14844L10.2344 2.73438L9.76562 2.38281L9.29687 2.73438L9.45313 2.14844L8.98438 1.75781H9.57031L9.76562 1.17188Z" fill="white"/>
+          <path id="Vector_16" d="M11.3281 3.51562L11.5234 4.10156H12.1094L11.6406 4.49219L11.7969 5.07812L11.3281 4.72656L10.8594 5.07812L11.0156 4.49219L10.5469 4.10156H11.1328L11.3281 3.51562Z" fill="white"/>
+          <path id="Vector_17" d="M8.20312 3.51562L8.39844 4.10156H8.98438L8.51562 4.49219L8.67188 5.07812L8.20312 4.72656L7.73437 5.07812L7.89063 4.49219L7.42188 4.10156H8.00781L8.20312 3.51562Z" fill="white"/>
+          <path id="Vector_18" d="M9.76562 5.85938L9.96094 6.44531H10.5469L10.0781 6.83594L10.2344 7.42188L9.76562 7.07031L9.29687 7.42188L9.45313 6.83594L8.98438 6.44531H9.57031L9.76562 5.85938Z" fill="white"/>
+          <path id="Vector_19" d="M6.64062 5.85938L6.83594 6.44531H7.42187L6.95312 6.83594L7.10937 7.42188L6.64062 7.07031L6.17187 7.42188L6.32813 6.83594L5.85938 6.44531H6.44531L6.64062 5.85938Z" fill="white"/>
+          <path id="Vector_20" d="M3.51562 5.85938L3.71094 6.44531H4.29688L3.82813 6.83594L3.98437 7.42188L3.51562 7.07031L3.04688 7.42188L3.20312 6.83594L2.73438 6.44531H3.32031L3.51562 5.85938Z" fill="white"/>
+          <path id="Vector_21" d="M11.3281 8.20312L11.5234 8.78906H12.1094L11.6406 9.17969L11.7969 9.76562L11.3281 9.41406L10.8594 9.76562L11.0156 9.17969L10.5469 8.78906H11.1328L11.3281 8.20312Z" fill="white"/>
+          <path id="Vector_22" d="M8.20312 8.20312L8.39844 8.78906H8.98438L8.51562 9.17969L8.67188 9.76562L8.20312 9.41406L7.73437 9.76562L7.89063 9.17969L7.42188 8.78906H8.00781L8.20312 8.20312Z" fill="white"/>
+          <path id="Vector_23" d="M5.07812 8.20312L5.27344 8.78906H5.85938L5.39063 9.17969L5.54687 9.76562L5.07812 9.41406L4.60938 9.76562L4.76562 9.17969L4.29688 8.78906H4.88281L5.07812 8.20312Z" fill="white"/>
+          <path id="Vector_24" d="M9.76562 10.5469L9.96094 11.1328H10.5469L10.0781 11.5234L10.2344 12.1094L9.76562 11.7578L9.29687 12.1094L9.45313 11.5234L8.98438 11.1328H9.57031L9.76562 10.5469Z" fill="white"/>
+          <path id="Vector_25" d="M6.64062 10.5469L6.83594 11.1328H7.42187L6.95312 11.5234L7.10937 12.1094L6.64062 11.7578L6.17187 12.1094L6.32813 11.5234L5.85938 11.1328H6.44531L6.64062 10.5469Z" fill="white"/>
+          <path id="Vector_26" d="M3.51562 10.5469L3.71094 11.1328H4.29688L3.82813 11.5234L3.98437 12.1094L3.51562 11.7578L3.04688 12.1094L3.20312 11.5234L2.73438 11.1328H3.32031L3.51562 10.5469Z" fill="white"/>
+          <path id="Vector_27" d="M4.60937 5.07812L5.07812 4.72656L5.54687 5.07812L5.35156 4.49219L5.82031 4.10156H5.23437L5.07812 3.51562L4.88281 4.10156H4.33594L4.80469 4.45312L4.60937 5.07812Z" fill="white"/>
+          <path id="Vector_28" d="M1.48437 9.76562L1.95312 9.41406L2.42187 9.76562L2.22656 9.17969L2.69531 8.78906H2.14844L1.95312 8.20312L1.75781 8.78906H1.36719C1.36719 8.82812 1.32812 8.86719 1.32812 8.90625L1.64062 9.14062L1.48437 9.76562Z" fill="white"/>
+          </g>
+          </g>
+          <defs>
+          <clipPath id="clip0_4_79">
+          <rect width="25" height="25" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg> USD $
+           <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+</svg></button>
+        <!-- Dropdown menu -->
+        <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+              <li>
+                <a href="#" class="block font-primary uppercase px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">US Dollar</a>
+              </li>
+              <li>
+                <a href="#" class="block font-primary uppercase px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Singaporean Dollar</a>
+              </li>
+              <li>
+                <a href="#" class="block font-primary uppercase px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Canadian Dollar</a>
+              </li>
+            </ul>
+        </div>
+    </li>
+    </ul>
   </div>
 </nav>
 
-  
- 
-  
-  
 
+<section class="">
+  <div class="flex mb-8">
+    <div
+        class="w-1/2 h-screen bg-[url('../public/assets/img/hero-bg.png')] bg-gray-200 bg-blend-multiply bg-cover bg-center">
+    </div>
+    <div
+        class="w-1/2 h-screen bg-[url('../public/assets/img/hero-bg-right.png')] bg-cover bg-center">
+        <div class="w-full h-screen flex  justify-center items-center">
+                <img src="../public/assets/img/hero-text.png" alt=""/>
+                <!-- <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button> -->
+        </div>
+        
+    </div>
+</div>
+<section class="">
+  <div class="flex w-full h-1/2 bg-white  overflow-hidden">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="flex justify-center">
+          <div class="flex flex-wrap  marker:justify-center"><h1 class="text-lg font-bold uppercase">$5 <sup class="text-sm uppercase">Off  </sup></h1>
+            <span class="text-sm font-light">on orders above $150</span>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex flex-wrap  marker:justify-center"><h1 class="text-lg font-bold uppercase">$15 <sup class="text-sm uppercase">Off</sup></h1>
+            <span class="text-sm font-light">on orders above $150</span>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex flex-wrap  marker:justify-center"><h1 class="text-lg font-bold uppercase">$20 <sup class="text-sm uppercase">Off</sup></h1>
+            <span class="text-sm font-light">on orders above $150</span>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex flex-wrap  marker:justify-center"><h1 class="text-lg font-bold uppercase">$30 <sup class="text-sm uppercase">Off</sup></h1>
+            <span class="text-sm font-light">on orders above $150</span>
+          </div>
+        </div>
+        <div class="bg-customblack px-5 py-2.5 mr-2 mb-2 flex justify-center">
+          <div class="flex flex-wrap  marker:justify-center"><a class="text-sm text-white font-bold uppercase">CHECK OUT ALL SITE DEALS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="">
+  <div class="flex w-full h-14 bg-customblack justify-center items-center ">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="text-lg uppercase font-bold text-white p-auto mt-2.5 mx-auto">BLACK FRIDAY EXCLUSIVE</div>
+        <div class="text-md uppercase font-normal text-white p-auto mt-1 mx-auto">Free Shipping On All Orders for VIP 2 and Up</div>
+        <div class="text-lg font-bold text-white p-auto mt-2 mx-auto"><button type="button" class="uppercase text-customblack bg-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Shop Now</button></div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="pt-12">
+  <div class="flex flex-start">
+    <h1 class="text-2xl font-bold mx-auto">Now Trending</h1>
+  </div>
+  <div class="flex flex-start">
+    <span class="text-sm font-light mx-auto">Now Trending</h1>
+  </div>
+</div>
+<div class="flex justify-center bg-white px-32 py-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div>
+      <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-winter-fash.png" alt="">
+      <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Winter Fashion</h1>
+  </div>
+  <div>
+    <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-boots.png" alt="">
+    <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Boots</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-night-out.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Night Out</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-holidays.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Holidays</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-outerwear.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Outerwear</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-white-dress.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">White Dresses</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-sweaters.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Sweaters</h1>
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prev-party.png" alt="">
+  <h1 class="flex text-lg font-semibold text-customBlack justify-center uppercase">Party</h1>
+</div>
+
+</div>
+</div>
+
+<div class="w-full container mx-auto p-12 flex flex-row justify-center items-center">
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#Thanksgiving</div>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#NewYears</div>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#Knitted</div>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#Pajamas</div>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#WFH</div>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-sm px-2">
+    <div class="font-primary px-2 py-1 bg-white text-xs text-customblack cursor-pointer border border-customblack rounded-md">#FallFashion</div>
+  </div>
+</div>
+</section>
+
+
+<section class="flex">
+  <div class="custom h-80 p-4 text-green-800 grid grid-cols-2 gap-2">
+    <div class="flex flex-row">
+      <img class="py-4 pl-12 z-10" src="../public/assets/img/models/model-1.png" alt="">
+      <img class="py-4 pr-32 -z-10" src="../public/assets/img/models/model-2.png" alt=""> 
+    </div>
+    <div class="block justify-center items-center p-5 mx-auto">
+      <h1 class="font-primary font-extrabold text-4xl text-white">NEW</h1>
+      <h1 class="font-primary font-extrabold text-4xl text-white">ARRIVALS</h1>
+      <span>Get ready for a holiday with us</span>
+      <div class="text-lg font-bold text-white p-auto mt-2 mx-auto"><button type="button" class="uppercase text-customblack bg-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Shop Now</button></div>
+    </div>
+  </div>
+</section>
+
+<div class="pt-12">
+  <div class="flex flex-start">
+    <h1 class="text-2xl font-bold mx-auto">Recently Bought</h1>
+  </div>
+  <div class="flex flex-start">
+    <span class="text-sm font-light mx-auto">Now Trending</h1>
+  </div>
+</div>
+<div class="flex justify-center bg-white px-16 py-6">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+  <div>
+      <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prod-1.png" alt="">
+      <h1 class="flex pt-2 text-xs font-light text-customBlack">Product Info</h1>
+      <span class="pr-2  text-xs font-bold text-customBlack">$20 </span>    
+      <span class="pr-2  text-xs font-bold text-customBlack"> $20</span>  
+  </div>
+  <div>
+    <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prod-2.png" alt="">
+    <h1 class="flex pt-2 text-xs font-light text-customBlack">Product Info</h1>
+    <span class="pr-2  text-xs font-bold text-customBlack">$20 </span>    
+    <span class="pr-2  text-xs font-bold text-customBlack"> $20</span>  
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prod-3.png" alt="">
+  <h1 class="flex pt-2 text-xs font-light text-customBlack">Product Info</h1>
+  <span class="pr-2  text-xs font-bold text-customBlack">$20 </span>    
+  <span class="pr-2  text-xs font-bold text-customBlack"> $20</span>  
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prod-4.png" alt="">
+  <h1 class="flex pt-2 text-xs font-light text-customBlack">Product Info</h1>
+  <span class="pr-2  text-xs font-bold text-customBlack">$20 </span>    
+  <span class="pr-2  text-xs font-bold text-customBlack"> $20</span>  
+</div>
+<div>
+  <img class="h-64 w-48 rounded-lg object-fill" src="../public/assets/img/products/prod-5.png" alt="">
+  <h1 class="flex pt-2 text-xs font-light text-customBlack">Product Info</h1>
+  <span class="pr-2  text-xs font-bold text-customBlack">$20 </span>    
+  <span class="pr-2  text-xs font-bold text-customBlack"> $20</span>  
+</div>
+
+
+
+
+</div>
+</div>
+
+<section class="bg-gray-100">
+<div class="pt-12">
+  <div class="flex flex-start">
+    <h1 class="text-2xl font-bold mx-auto">Your Next Steps</h1>
+  </div>
+  <div class="flex flex-start">
+    <span class="text-sm font-light mx-auto">Checkout who’s wearing what by using #THREADEDInspo on Instagram</h1>
+  </div>
+</div>
+<div class="flex justify-center px-16 py-6">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+  <div>
+    <img class="h-56 w-48 rounded-lg object-fill" src="../public/assets/img/socmed/post-1.png" alt="">
+  </div>
+  <div>
+    <img class="h-56 w-48 rounded-lg object-fill" src="../public/assets/img/socmed/post-2.png" alt="">
+</div>
+<div>
+  <img class="h-56 w-48 rounded-lg object-fill" src="../public/assets/img/socmed/post-3.png" alt="">
+</div>
+<div>
+  <img class="h-56 w-48 rounded-lg object-fill" src="../public/assets/img/socmed/post-4.png" alt="">
+</div>
+<div>
+  <img class="h-56 w-48 rounded-lg object-fill" src="../public/assets/img/socmed/post-5.png" alt="">
+</div>
+
+
+
+
+</div>
+</div>
+<div class="flex justify-center text-lg font-bold text-white p-auto mt-2 mx-auto"><button type="button" class="uppercase text-white bg-customblack hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View All Posts</button></div>
+    </div>
+</section>
+
+
+<section class="">
+  <div class="flex w-full h-14 bg-customblack justify-center items-center ">
+    <div class="container flex justify-center items-center">
+      <div class="text-lg uppercase font-bold text-white p-auto mx-auto ">SIGN UP FOR EXCLUSIVE DEALS AND UPDATES</div>
+
+      <div class="relative">
+      <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+          <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+          <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+        </svg>
+      </div>
+      <input type="text" id="email-address-icon" class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-56 pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your email">
+    </div>
+      
+
+
+    </div>
+    
+  </div>
+</section>
+
+
+
+<footer class="bg-white dark:bg-gray-900">
+  <div class="mx-auto w-full max-w-screen-xl">
+    <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class=" hover:underline">About</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Careers</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Brand Center</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Blog</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Discord Server</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Twitter</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Facebook</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Contact Us</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Licensing</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 uppercase dark:text-white">FOLLOW US</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">iOS</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Android</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Windows</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">MacOS</a>
+              </li>
+              <!-- <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                        </svg>
+                      <span class="sr-only">Facebook page</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                        </svg>
+                      <span class="sr-only">Discord community</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                    </svg>
+                      <span class="sr-only">Twitter page</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                      </svg>
+                      <span class="sr-only">GitHub account</span>
+                  </a>
+                  <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+                    </svg>
+                      <span class="sr-only">Dribbble account</span>
+                  </a>
+            </div> -->
+          </ul>
+      </div>
+  </div>
+  <div class="px-4 py-6 bg-white dark:bg-gray-700 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">THREADED</a>. All Rights Reserved.
+      </span>
+      <svg width="193" height="17" viewBox="0 0 193 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Logo">
+        <path id="Vector" d="M8.85573 2.3274V17H7.38961V2.3274H0V1H16.2454V2.3274H8.85573Z" fill="black"/>
+        <path id="Vector_2" d="M40.3128 17V9.22124H25.7583V17H24.2805V1.00001H25.7583V7.89355H40.3128V1H41.7908V17H40.3128Z" fill="black"/>
+        <path id="Vector_3" d="M53.5857 10.1528V17H52.1078V1.00001H60.1952C61.2626 0.984026 62.3287 1.07961 63.3756 1.28516C64.1486 1.43124 64.8854 1.72387 65.5451 2.14678C66.0849 2.50354 66.5129 3.00171 66.7807 3.58516C67.0534 4.22213 67.1863 4.90863 67.1709 5.59973C67.2241 6.64037 66.8827 7.66336 66.2131 8.47003C65.5747 9.18837 64.5461 9.67945 63.1271 9.94324L68.6724 17H66.8161L61.5783 10.1062C61.3575 10.1219 61.133 10.1335 60.9046 10.141C60.6758 10.1489 60.4394 10.1528 60.1952 10.1528H53.5857ZM65.6575 5.59973C65.6825 5.02467 65.5561 4.453 65.2906 3.94025C65.0142 3.4904 64.5935 3.14411 64.0949 2.95614C63.3997 2.69108 62.6674 2.53211 61.9234 2.48474C61.0278 2.40298 59.9291 2.36215 58.6275 2.36225H53.5857V8.79029H58.5802C59.882 8.79029 60.9826 8.75339 61.8821 8.6796C62.631 8.63829 63.3692 8.48522 64.0715 8.22562C64.5731 8.04395 64.9996 7.70409 65.2846 7.25893C65.556 6.74817 65.6847 6.17556 65.6575 5.59973Z" fill="black"/>
+        <path id="Vector_4" d="M77.1211 17V1H90.6587V2.36224H78.7289V7.8705H90.0557V9.19791H78.7289V15.6375H90.8361V17L77.1211 17Z" fill="black"/>
+        <path id="Vector_5" d="M115.122 17L112.888 12.7728H101.857L99.622 17H98.0021L106.503 1H108.241L116.742 17H115.122ZM107.378 2.40888L102.578 11.4454H112.166L107.378 2.40888Z" fill="black"/>
+        <path id="Vector_6" d="M142.506 8.98835C142.519 9.90861 142.41 10.8266 142.181 11.719C141.991 12.4557 141.681 13.1575 141.265 13.7976C140.88 14.378 140.394 14.8866 139.828 15.2998C139.253 15.7173 138.62 16.0506 137.948 16.2895C137.221 16.5474 136.468 16.7289 135.702 16.8312C134.858 16.9462 134.006 17.0026 133.154 17H124.771V1.00001H133.13C134.379 0.991091 135.624 1.1199 136.843 1.38404C137.917 1.60964 138.93 2.05615 139.816 2.69431C140.676 3.3368 141.356 4.18429 141.791 5.15697C142.304 6.36914 142.548 7.67558 142.506 8.98835ZM140.993 8.99424C141.004 8.21729 140.916 7.44204 140.733 6.68637C140.581 6.06983 140.329 5.48147 139.987 4.94403C139.674 4.46165 139.273 4.04077 138.804 3.70286C138.321 3.35992 137.791 3.08706 137.23 2.89265C136.613 2.67909 135.974 2.5326 135.325 2.4558C134.599 2.36779 133.868 2.32491 133.136 2.32741H126.249V15.6726H133.136C134.205 15.6816 135.272 15.5781 136.319 15.3638C137.214 15.187 138.06 14.8211 138.798 14.2915C139.508 13.7575 140.065 13.0505 140.413 12.2402C140.832 11.2093 141.03 10.1041 140.993 8.99424Z" fill="black"/>
+        <path id="Vector_7" d="M151.653 17V1H165.19V2.36224H153.261V7.8705H164.587V9.19791H153.261V15.6375H165.368V17L151.653 17Z" fill="black"/>
+        <path id="Vector_8" d="M192.509 8.98835C192.522 9.90861 192.413 10.8266 192.184 11.719C191.994 12.4557 191.684 13.1575 191.268 13.7976C190.883 14.378 190.397 14.8866 189.831 15.2998C189.257 15.7173 188.623 16.0506 187.952 16.2895C187.224 16.5474 186.471 16.7289 185.705 16.8312C184.861 16.9462 184.009 17.0026 183.157 17H174.774V1.00001H183.134C184.382 0.991091 185.627 1.1199 186.846 1.38404C187.92 1.60964 188.933 2.05615 189.82 2.69431C190.679 3.3368 191.359 4.18429 191.794 5.15697C192.308 6.36914 192.551 7.67558 192.509 8.98835ZM190.996 8.99424C191.007 8.21729 190.919 7.44204 190.736 6.68637C190.584 6.06983 190.332 5.48147 189.99 4.94403C189.677 4.46165 189.276 4.04077 188.807 3.70286C188.324 3.35991 187.794 3.08706 187.233 2.89265C186.616 2.67909 185.977 2.5326 185.328 2.4558C184.602 2.36779 183.871 2.32491 183.139 2.32741H176.252V15.6726H183.139C184.208 15.6816 185.275 15.5781 186.322 15.3638C187.217 15.187 188.063 14.8211 188.801 14.2915C189.511 13.7575 190.068 13.0505 190.416 12.2402C190.835 11.2093 191.033 10.1041 190.996 8.99424Z" fill="black"/>
+        </g>
+        </svg>
 
       
-    
+    </div>
+  </div>
+</footer>
+
+
   <script src="../node_modules\flowbite\dist\flowbite.min.js"></script>
 </body>
 </html>
