@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "**/*.{html, js}", "**/**/*.{html, js}", "./index.html"
-  ],
+  content: ["./src/**/*.{html,js,tsx}"],
   theme: {
     // screens: {
     //   'sm': '640px',
@@ -22,11 +20,11 @@ module.exports = {
     // },
     extend: {
       colors: {
-        black: '#0B0C10',
-        darkGray: '#1F2833',
-        gray: '#C5C6C7',
-        mint: '#66FCF1',
-        darkMint: '#45A29E'
+        customblack: '#0B0C10',
+        customDarkGray: '#1F2833',
+        customGray: '#C5C6C7',
+        customMint: '#66FCF1',
+        customDarkMint: '#45A29E'
       }
     },
   },
