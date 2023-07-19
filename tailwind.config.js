@@ -5,13 +5,7 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    colors: {
-      customblack: '#0B0C10',
-      customDarkGray: '#1F2833',
-      customGray: '#C5C6C7',
-      customYellow: '#FFD95A',
-      customGold: '#C07F00'
-    },
+    
     // screens: {
     //   'sm': '640px',
     //   // => @media (min-width: 640px) { ... }
@@ -29,6 +23,13 @@ module.exports = {
     //   // => @media (min-width: 1536px) { ... }
     // },
     extend: {
+      colors: {
+        customblack: '#0B0C10',
+        customDarkGray: '#1F2833',
+        customGray: '#C5C6C7',
+        customYellow: '#FFD95A',
+        customGold: '#C07F00'
+      },
       fontFamily: {
         primary: ['Montserrat']
       }
