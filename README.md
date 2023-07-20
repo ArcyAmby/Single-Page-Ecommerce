@@ -7,6 +7,7 @@ Singe-page e-commerce landing page with Cart Options
 This is the single-page landing page of an e-commerce website called Threader for my application to Ehrlich IT Services.
 
 ============================================
+
 Please make sure the following are readily available on your device:
 
 >Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
