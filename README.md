@@ -20,8 +20,8 @@ Once ready, please do the following to install TailwindCSS via CLI Tool:
 
 1. Install TailwindCSS via npm, and create your tailwind.config.js file (run the following code in the terminal, make sure you are in the projects root folder)
 
-npm install -D tailwindcss
-npx tailwindcss init
+>npm install -D tailwindcss
+>npx tailwindcss init
 
 2. Add the paths to all of your template files in your tailwind.config.js file.
        
@@ -36,13 +36,13 @@ npx tailwindcss init
 
 3. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 4. Run the CLI tool in the terminal to scan your template files for classes and build your CSS.
 
-   npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 5. Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
 
@@ -61,31 +61,17 @@ Then do the following:
 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
-   npm install flowbite
+>npm install flowbite
 
-2. Require Flowbite as a plugin inside the tailwind.config.js file:
+2. Require Flowbite as a plugin inside the tailwind.config.js file.
    
-     module.exports = {
-
-    plugins: [
-        require('flowbite/plugin')
-    ]
-
-3. Additionally to your own content data you should add flowbite to apply the classes from the interactive elements in the tailwind.config.js file:
-
-   module.exports = {
-
-    content: [
-        "./node_modules/flowbite/**/*.js"
-    ]
-
-}
+3. Additionally to your own content data you should add FlowBite to apply the classes from the interactive elements in the tailwind.config.js file.
 
 4. Require the JavaScript code that powers the interactive elements before the end of your <body> tag:
    
-   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 
-Alternatively, you can also use CDN to use flowbite. Please visit the official documentation here:
+Alternatively, you can also use CDN to use FlowBite. Please visit the official documentation here:
 
 https://flowbite.com/docs/getting-started/quickstart/
 
