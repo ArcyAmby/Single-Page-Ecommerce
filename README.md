@@ -1,18 +1,17 @@
 # Single-Page-Ecommerce
 
-============================================================================================
+============================================
 
 Singe-page e-commerce landing page with Cart Options 
 
 This is the single-page landing page of an e-commerce website called Threader for my application to Ehrlich IT Services.
 
-============================================================================================
-
+============================================
 Please make sure the following are readily available on your device:
 
 >Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
 
-============================================================================================
+============================================
 
 TAILWINDCSS INSTALLATION
 
@@ -50,8 +49,7 @@ Alternatively, you can use PlayCDN to use TailwindCSS. Please visit the official
 
 >https://tailwindcss.com/docs/installation
 
-
-============================================================================================
+============================================
 
 FLOWBITE INSTALLATION
 
@@ -75,10 +73,10 @@ Alternatively, you can also use CDN to use FlowBite. Please visit the official d
 
 >https://flowbite.com/docs/getting-started/quickstart/
 
-============================================================================================
+============================================
 
 THANK YOU AND HAPPY CODING!
 
-============================================================================================
+============================================
 
 
