@@ -6,17 +6,17 @@ Singe-page e-commerce landing page with Cart Options
 
 This is the single-page landing page of an e-commerce website called Threader for my application to Ehrlich IT Services.
 
-Please make sure the following are readily available on your device
-
 ============================================================================================
 
-# Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
+Please make sure the following are readily available on your device:
+
+1. Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
 
 ============================================================================================
 
 TAILWINDCSS INSTALLATION
 
-Once ready, please DO the following to install TailwindCSS via CLI Tool:
+Once ready, please do the following to install TailwindCSS via CLI Tool:
 
 1. Install tailwindcss via npm, and create your tailwind.config.js file (run the following code in the terminal, make sure you are in the projects root folder)
 
