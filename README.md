@@ -18,21 +18,21 @@ TAILWINDCSS INSTALLATION
 
 Once ready, please do the following to install TailwindCSS via CLI Tool:
 
-1. Install tailwindcss via npm, and create your tailwind.config.js file (run the following code in the terminal, make sure you are in the projects root folder)
+1. Install TailwindCSS via npm, and create your tailwind.config.js file (run the following code in the terminal, make sure you are in the projects root folder)
 
-   npm install -D tailwindcss
-   npx tailwindcss init
+npm install -D tailwindcss
+npx tailwindcss init
 
 2. Add the paths to all of your template files in your tailwind.config.js file.
        
-    /** @type {import('tailwindcss').Config} */
-    module.exports = {
-      content: ["./src/**/*.{html,js}"],
+/** @type {import('tailwindcss').Config} */
+   module.exports = {
+   content: ["./src/**/*.{html,js}"],
       theme: {
         extend: {},
       },
       plugins: [],
-    }
+   }
 
 3. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
