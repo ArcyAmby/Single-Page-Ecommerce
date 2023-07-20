@@ -25,7 +25,7 @@ Once ready, please do the following to install TailwindCSS via CLI Tool:
 
 2. Add the paths to all of your template files in your tailwind.config.js file.
        
-/** @type {import('tailwindcss').Config} */
+>/** @type {import('tailwindcss').Config} */
    module.exports = {
    content: ["./src/**/*.{html,js}"],
       theme: {
@@ -36,7 +36,7 @@ Once ready, please do the following to install TailwindCSS via CLI Tool:
 
 3. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
-@tailwind base;
+>@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -48,7 +48,7 @@ Once ready, please do the following to install TailwindCSS via CLI Tool:
 
 Alternatively, you can use PlayCDN to use TailwindCSS. Please visit the official documentation here:
 
-https://tailwindcss.com/docs/installation
+>https://tailwindcss.com/docs/installation
 
 
 ============================================================================================
@@ -69,11 +69,11 @@ Then do the following:
 
 4. Require the JavaScript code that powers the interactive elements before the end of your <body> tag:
    
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+><script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 
 Alternatively, you can also use CDN to use FlowBite. Please visit the official documentation here:
 
-https://flowbite.com/docs/getting-started/quickstart/
+>https://flowbite.com/docs/getting-started/quickstart/
 
 ============================================================================================
 
