@@ -35,16 +35,16 @@ Once ready, please do the following to install TailwindCSS via CLI Tool:
     }
 
 3. Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
-4. 
+
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
 
-5. Run the CLI tool in the terminal to scan your template files for classes and build your CSS.
+4. Run the CLI tool in the terminal to scan your template files for classes and build your CSS.
 
    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
-4. Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
+5. Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
 
 Alternatively, you can use PlayCDN to use TailwindCSS. Please visit the official documentation here:
 
