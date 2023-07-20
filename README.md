@@ -10,7 +10,7 @@ This is the single-page landing page of an e-commerce website called Threader fo
 
 Please make sure the following are readily available on your device:
 
-1. Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
+>Node JS NPM Latest version (Latest LTS Version: 18.17.0 (includes npm 9.6.7)
 
 ============================================================================================
 
